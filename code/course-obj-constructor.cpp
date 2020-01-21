@@ -45,7 +45,9 @@ void Course::print_class_info()
 int main()
 {
   Course bio("Biology", "Dr. A", "A@u.edu", 40, 3);
+  Course art("Ceramics", "Dr. B", "B@u.edu", 20, 3);
   bio.print_class_info();
+  art.print_class_info();
   
   return 0;
 }
