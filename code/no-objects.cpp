@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void print_class(string name,
+void print_course(string name,
 		 string professor,
 		 string professor_email,
 		 int enrollment,
@@ -38,8 +38,5 @@ int main()
   int math_enrollment = 30;
   int math_credits = 4;
 
-  print_class(math_name, math_professor,
-	      math_professor_email, math_enrollment,
-	      math_credits);
   return 0;
 } //end main
