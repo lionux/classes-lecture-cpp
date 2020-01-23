@@ -10,6 +10,14 @@ public:
   int credits;
   void print_class_info();
 };
+void Course::print_class_info()
+{
+  cout << "Course Name: " << name << endl;
+  cout << "Professor Name: " << professor << endl;
+  cout << "Professor Email: " << email << endl;
+  cout << "Enrollment: " << enrollment << endl;
+  cout << "Credits: " << credits << endl;
+}
 
 int main()
 {
@@ -38,11 +46,3 @@ int main()
 
 
 
-void Course::print_class_info()
-{
-  cout << "Course Name: " << name << endl;
-  cout << "Professor Name: " << professor << endl;
-  cout << "Professor Email: " << email << endl;
-  cout << "Enrollment: " << enrollment << endl;
-  cout << "Credits: " << credits << endl;
-}
