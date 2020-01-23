@@ -15,10 +15,3 @@ int main()
   return 0;
 }
 
-
-
-
-
-//  some_course.x = 3;
-//  cout << "x: " << obj.x << endl;
-//  obj.y = 4;
