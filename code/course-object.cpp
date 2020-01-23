@@ -21,6 +21,14 @@ int main()
   bio.enrollment = 40;
   bio.credits = 3;
   bio.print_class_info();
+
+  Course art;
+  art.name = "Ceramics";
+  art.professor = "Dr. B";
+  art.email = "B@u.edu";
+  art.enrollment = 30;
+  art.credits = 3;
+  art.print_class_info();
   
   return 0;
 }

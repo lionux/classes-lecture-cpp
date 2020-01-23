@@ -80,6 +80,6 @@ int main()
   art.print_class_info();
 
   bio.set_enrollment(32);
-  cout << "Bio enrollment: " << bio.get_enrollment() << endl;
+  bio.print_class_info();
   return 0;
 }
